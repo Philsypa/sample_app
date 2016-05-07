@@ -1,3 +1,29 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.index-page-welcome{
+    font-family: Cabin Condensed, helvetica, Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 1em;
+}
+
+/* Structural Styles specific to the footer */
+.footerRight ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footerRight ul li {
+    display: inline;
+    text-decoration: none;
+    padding: .2em 1em;
+
+}
+
+.footerRight ul li a {
+    padding: .2em 1em;
+
+}
